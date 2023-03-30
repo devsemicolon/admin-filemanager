@@ -1,0 +1,30 @@
+{
+    "name": "devsemicolon/admin-filemanager",
+    "description": "Admin File Manager Package for Laravel",
+    "keywords": [
+        "laravel",
+        "filemanager"
+    ],
+    "authors": [
+        {
+            "name": "Mayank Patel",
+            "email": "dev.semicolon@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/devsemicolon/admin-filemanager",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Devsemicolon\\AdminFilemanager\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devsemicolon\\AdminFilemanager\\FilemanagerServiceProvider"
+            ]
+        }
+    }
+}
