@@ -7,7 +7,7 @@ Laravel File Manager for v5.8.
 1. Install package - using composer
 
 ```
-composer require devsemicolon/filemanager
+composer require devsemicolon/admin-filemanager
 ```
 
 ## Usage
@@ -27,18 +27,6 @@ composer require devsemicolon/filemanager
 <link href="{{ asset('css/font-awesome/css/font-awesome.css') }}" rel="stylesheet">
 ```
 Note: No need to add csrf-token,app.js and app.css if you are already added.
-
-4. Add following code to blade file enable file manager 
-```
-<div class="image-manager-main-div">
-                            
-    <div style="display: none;" class="image-manager-image-div"><img src="" alt="" title=""/></div>
-    <button type="button" class="image-manager-button">Set image</button>
-    <input type="hidden" class="thumb-placement" name="image" id="thumb-placement" />
-
-</div>
-```
-Note : if you want to use multiple thumbnails on single page then make sure to make id="thumb-placement" unique and take name="image" as an array name="image[]"
 
 ## Change config
 
